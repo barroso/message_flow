@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project Ruby + React and PostgreSQL
+# Ruby Project
 
-Things you may want to cover:
+Ruby version: 2.7.2
 
-* Ruby version
+run bundle install
 
-* System dependencies
+rake db:migrate
 
-* Configuration
+rails s
 
-* Database creation
+http://localhost:3000
+# React project
 
-* Database initialization
+message_flow/app/front/package.json
 
-* How to run the test suite
+Node version: v14.17.0
 
-* Services (job queues, cache servers, search engines, etc.)
+yarn install
 
-* Deployment instructions
+yarn start
 
-* ...
+http://localhost:3001
+
+# Config API Customer.io
+
+[Get site_id and api_key](https://customer.io/docs/api/#section/Client-libraries)
+
+export CUSTOMERIO_KEY="site_id:api_key"
